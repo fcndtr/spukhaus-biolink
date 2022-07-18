@@ -32,12 +32,16 @@
 
         setTimeout(() => {
           const main = document.querySelector("main");
+          const footer = document.querySelector("footer");
           main.style.opacity = 1;
+          footer.style.opacity = 1;
           main.style.filter = "blur(0px)";
+          footer.style.filter = "blur(0px)";
         }, 1000);
       });
     </script>
   </head>
+
   <body>
     <div id="vanta"></div>
     <main>
@@ -51,12 +55,6 @@
           <a href="https://www.youtube.com/channel/UCBkRq8oX5PQsxWXGxsWT8hQ">
             <img src="./images/youtube.svg" alt="YouTube logo" width="20" />
             YouTube</a
-          >
-        </li>
-        <li>
-          <a href="https://anchor.fm/spukhaus">
-            <img src="./images/spotify.svg" alt="Podcast logo" width="20" />
-            Podcast</a
           >
         </li>
         <li>
@@ -79,5 +77,8 @@
         </li>
       </ul>
     </main>
+    <footer>
+      <p>Made by &copy; Spukhaus Team 2022</p>
+    </footer>
   </body>
 </html>
