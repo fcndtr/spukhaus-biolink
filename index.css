@@ -94,6 +94,14 @@ ul > li {
   box-shadow: rgb(28 32 93 / 24%) 0px 2px 8px 0px;
 }
 
+ul > li > a:hover {
+  font-size: 0.9em;
+}
+
+ul > li > a:after {
+  font-size: 0.9em;
+}
+
 ul > li > a {
   display: flex;
   flex-direction: row;
@@ -116,5 +124,5 @@ footer {
 }
 
 footer > p {
-  font-size: 0.9em;
+  font-size: 0.8em;
 }
