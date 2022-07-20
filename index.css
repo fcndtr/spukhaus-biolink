@@ -98,7 +98,7 @@ ul > li > a:hover {
   font-size: 0.9em;
 }
 
-ul > li > a:after {
+ul > li > a:active {
   font-size: 0.9em;
 }
 
